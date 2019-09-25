@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		486AE3A3233BC62C0000EBDC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486AE3A2233BC62C0000EBDC /* main.cpp */; };
+		486AE3AE233BC8FD0000EBDC /* Implementation1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486AE3AC233BC8FD0000EBDC /* Implementation1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		486AE39F233BC62C0000EBDC /* Stack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack; sourceTree = BUILT_PRODUCTS_DIR; };
 		486AE3A2233BC62C0000EBDC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		486AE3A9233BC6CA0000EBDC /* StackOfInt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackOfInt.h; sourceTree = "<group>"; };
+		486AE3AB233BC7800000EBDC /* QueueOfInts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueOfInts.h; sourceTree = "<group>"; };
+		486AE3AC233BC8FD0000EBDC /* Implementation1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Implementation1.cpp; sourceTree = "<group>"; };
+		486AE3AD233BC8FD0000EBDC /* Implementation1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Implementation1.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				486AE3A2233BC62C0000EBDC /* main.cpp */,
+				486AE3A9233BC6CA0000EBDC /* StackOfInt.h */,
+				486AE3AB233BC7800000EBDC /* QueueOfInts.h */,
+				486AE3AD233BC8FD0000EBDC /* Implementation1.hpp */,
+				486AE3AC233BC8FD0000EBDC /* Implementation1.cpp */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -120,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				486AE3A3233BC62C0000EBDC /* main.cpp in Sources */,
+				486AE3AE233BC8FD0000EBDC /* Implementation1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
