@@ -18,6 +18,7 @@ int main() {
     std::cout << "Print FULL STOCK:\n";
     impl_stack -> printFullStack();
     std::cout << "----------------\n";
+    
     std::cout << "(push: 2)\n";
     impl_stack -> push(2);
     std::cout << "Print FULL STOCK:\n";
