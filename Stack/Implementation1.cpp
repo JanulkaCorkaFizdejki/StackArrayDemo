@@ -106,7 +106,7 @@ public:
     // SHOW FULL STACK ELEMENTS
     void printFullStack() override {
         for (int i = 0; i < temp_size_array; i++) {
-            std::cout << "(" << i + 1 << ") " << "[stock-value: " << pointer_array[i] << "]" <<"\n";
+            std::cout << "(" << i + 1 << ") " << "[stack-value: " << pointer_array[i] << "]" <<"\n";
         }
     }
     
