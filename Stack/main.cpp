@@ -24,35 +24,43 @@ int main() {
     std::cout << "Print FULL STOCK:\n";
     impl_stack -> printFullStack();
     std::cout << "----------------\n";
+    
     std::cout << "(push: 5)\n";
     impl_stack -> push(5);
     std::cout << "Print FULL STOCK:\n";
     impl_stack -> printFullStack();
     std::cout << "----------------\n";
+    
     std::cout << "(push: 7)\n";
     impl_stack -> push(7);
     std::cout << "Print FULL STOCK:\n";
     impl_stack -> printFullStack();
     std::cout << "----------------\n";
+    
     std::cout << "(size:)\n";
     std::cout << "Current Stack Size: " << impl_stack -> size()<< "\n";
     std::cout << "----------------\n";
+    
     std::cout << "(pop: last element in stack => " << impl_stack -> pop() << ")\n";
     std::cout << "Print FULL STOCK:\n";
     impl_stack -> printFullStack();
     std::cout << "----------------\n";
+    
     std::cout << "(pop: last element in stack => " << impl_stack -> pop() << ")\n";
     std::cout << "Print FULL STOCK:\n";
     impl_stack -> printFullStack();
     std::cout << "----------------\n";
+    
     std::cout << "(push: 21)\n";
     impl_stack -> push(21);
     std::cout << "Print FULL STOCK:\n";
     impl_stack -> printFullStack();
     std::cout << "----------------\n";
+    
     std::string is_empty = impl_stack -> isEmpty() == 1 ? "N0!" : "YES!";
     std::cout << "(stack is empty? " << is_empty <<")\n";
     std::cout << "----------------\n";
+    
     std::cout << "(size:)\n";
     std::cout << "Current Stack Size: " << impl_stack -> size()<< "\n";
     std::cout << "\n *** END STACK ARRAY *** \n";
