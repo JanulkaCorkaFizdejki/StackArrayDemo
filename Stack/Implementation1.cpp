@@ -97,7 +97,7 @@ public:
     }
     
     
-    // CURRENT STACK SIZE
+    // CURRENT STACK PEEK
     int peek() const override {
         return temp_size_array > 0 ? pointer_array[temp_size_array - 1] : 0;
     }
